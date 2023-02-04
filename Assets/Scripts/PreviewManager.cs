@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
-public class PreviewManager : MonoBehaviour
+public class PreviewManager : MonoScript
 {
-    [SerializeField]
-    private SpriteUI[] _previews;
+    //[SerializeField]
+    //private SpriteUI[] _previews;
     [SerializeField]
     private int _current;
     // Start is called before the first frame update
@@ -14,7 +15,7 @@ public class PreviewManager : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // Update is called once per frame  
     void Update()
     {
         
