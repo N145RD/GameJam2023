@@ -5,7 +5,7 @@ using UnityEngine;
 public class PreviewManager : MonoBehaviour
 {
     [SerializeField]
-    private SpriteUI[] _previews;
+    private ModulesSO[] _previews;
     [SerializeField]
     private int _current;
     // Start is called before the first frame update
