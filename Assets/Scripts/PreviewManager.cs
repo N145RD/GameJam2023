@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
-public class PreviewManager : MonoBehaviour
+public class PreviewManager : MonoScript
 {
-    [SerializeField]
-    private ModulesScriptableObject[] _previews;
+
+    //[SerializeField]
+    //private SpriteUI[] _previews;
     [SerializeField]
     private GameObject _current;
     [SerializeField]
@@ -19,7 +21,7 @@ public class PreviewManager : MonoBehaviour
         _current = null;
     }
 
-    // Update is called once per frame
+    // Update is called once per frame  
     void Update()
     {
         if (_updated) {
