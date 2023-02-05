@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -13,8 +14,10 @@ public class EventManager : MonoBehaviour
     [SerializeField]
     private TextMeshProGUI _description;
     */
-    [SerializeField]
-    private Image _image;
+
+    private string _title;
+    private string _description;
+    private Sprite _image;
     
     public void ShowEvent()
     {
@@ -30,10 +33,10 @@ public class EventManager : MonoBehaviour
     
     public void NextEvent()
     {
-    //    EventSO nextEvent = Instance.eventsQueue[++Instance.currentEventIndex];
-    //    _title = nextEvent.title;
-    //    _description= nextEvent.description;
-    //    _image = nextEvent.image;
+        EventSO nextEvent = Instance.eventsQueue[++Instance.currentEventIndex];
+        _title = nextEvent.eventName;
+        _description= nextEvent.description;
+        _image = nextEvent.image;
     }
     
     
