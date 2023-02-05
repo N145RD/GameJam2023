@@ -416,6 +416,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -6626454610690344406, guid: 4a11b3b41ca9e370d911572a52d70c1d, type: 2}
+    - target: {fileID: 5071200141908778723, guid: 094fd2c2e022e1536b2ac1116dbaa148, type: 3}
+      propertyPath: m_TargetCamera
+      value: 
+      objectReference: {fileID: 1383990971}
     - target: {fileID: 5541979989300446666, guid: 094fd2c2e022e1536b2ac1116dbaa148, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -719,6 +723,11 @@ MonoBehaviour:
   _energy: {fileID: 1875993564}
   _time: {fileID: 1773456851}
   _charisma: {fileID: 2069328406}
+--- !u!20 &1383990971 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 233303726631546954, guid: 0b1d149d293f191b1885968e3d3a8c0b, type: 3}
+  m_PrefabInstance: {fileID: 233303726391052341}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1443780164
 PrefabInstance:
   m_ObjectHideFlags: 0
