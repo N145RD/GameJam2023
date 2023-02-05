@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public float charisma;
     public EventSO[] eventsQueue;
     public static GameManager Instance;
+    public int currentEventIndex;
     private void Awake()
     {
         if (Instance == null)
