@@ -7,31 +7,33 @@ public class EventManager : MonoBehaviour
 {
     [SerializeField]
     private Canvas _dialoguePrompt;
+    /*
     [SerializeField]
-    private TextMeshProUGUI _title;
+    private TextMeshProGUI _title;
     [SerializeField]
-    private TextMeshProUGUI _description;
+    private TextMeshProGUI _description;
+    */
     [SerializeField]
     private Image _image;
     
     public void ShowEvent()
     {
-        _dialoguePrompt.gameobject.setActive(true);
+        _dialoguePrompt.gameObject.SetActive(true);
         _dialoguePrompt.enabled = true;
     }
     
     public void HideEvent()
     {
-        _dialoguePrompt.gameobject.setActive(false);
+        _dialoguePrompt.gameObject.SetActive(false);
         _dialoguePrompt.enabled = false;
     }
     
     public void NextEvent()
     {
-        EventSO nextEvent = Instance.eventsQueue[++Instance.currentEventIndex];
-        _title = nextEvent.title;
-        _description= nextEvent.description;
-        _image = nextEvent.image;
+    //    EventSO nextEvent = Instance.eventsQueue[++Instance.currentEventIndex];
+    //    _title = nextEvent.title;
+    //    _description= nextEvent.description;
+    //    _image = nextEvent.image;
     }
     
     
