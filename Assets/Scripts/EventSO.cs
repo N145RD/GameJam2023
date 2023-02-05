@@ -8,6 +8,6 @@ public class EventSO : ScriptableObject
 {
     public string eventName;
     public string description;
-    public Sprite image;
     public string[] tags;
+    public ChoiceSO[] choices;
 }

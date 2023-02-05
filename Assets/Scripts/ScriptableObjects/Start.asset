@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80dd472178107073baca581adebe0ad8, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  eventName: Your adventure
+  description: It's here that your journey begins. As you travel to reach the ancestial
+    breeding grounds of the majestic treekind, you will encounter many allies or
+    enemies. you will have to reach your goal in time, and not run out of energy
+    before then. Your charisma will also influence your success in getting a conquest
+  tags: []
+  choices:
+  - {fileID: 11400000, guid: b79fb6ee2c1fcd654a1bd7e5bd86f4d7, type: 2}
